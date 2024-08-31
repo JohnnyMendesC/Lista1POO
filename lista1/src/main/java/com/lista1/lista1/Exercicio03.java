@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Exercicio03 {
     public static void resolucao(){
-        /*3) Escreva uma calculadora que receba um valor em reais
-        e converta para dólar. Considere o valor do dólar a R$5,25 */
+        System.out.println("3) Escreva uma calculadora que receba um valor em reais");
+        System.out.println("e converta para dólar. Considere o valor do dólar a R$5,25");
 
         float reais, dolar;
 

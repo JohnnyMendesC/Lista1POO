@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class Exercicio02 {
     public static void resolucao(){
-        /*2)Escreva um programa que pergunte o nome e o
-        sobrenome do usuário e escreva na tela: "Olá, -usuário-". */
+        System.out.println("2) Escreva um programa que pergunte o nome e o");
+        System.out.println("sobrenome do usuário e escreva na tela: Olá, -usuário-");
 
         String nome, sobrenome;
 

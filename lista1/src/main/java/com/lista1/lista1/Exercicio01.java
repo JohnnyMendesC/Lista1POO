@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio01 {
     public static void resolucao(){
-        /*1) Escreva um programa que faça a soma entre 2 números*/
+        System.out.println("1) Escreva um programa que faça a soma entre 2 números");
         int numero1, numero2;
 
         System.out.print("Digite o primeiro número: ");

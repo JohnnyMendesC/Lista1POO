@@ -20,17 +20,23 @@ public class Lista1Application {
 
 		switch(opcao){
 			case 1:
-			System.out.println("EXERCÍCIO 1:\nEscreva um programa que faça a soma entre 2 números");
+			System.out.println("EXERCÍCIO 1:");
 			Exercicio01.resolucao();
 			break;
 			case 2:
-			System.out.println("EXERCÍCIO 2:\nEscreva um programa que pergunte o nome e o\nsobrenome do usuário e escreva na tela: Olá, -usuário-");
+			System.out.println("EXERCÍCIO 2:");
 			Exercicio02.resolucao();
+			break;
 			case 3:
-			System.out.println("EXERCÍCIO 3:\nEscreva uma calculadora que receba um valor em reais ne converta para dólar. Considere o valor do dólar a R$5,25");
+			System.out.println("EXERCÍCIO 3:");
 			Exercicio03.resolucao();
 			break;
-			
+			case 4:
+			System.out.println("EXERCÍCIO 4:");
+			Exercicio04.resolucao();
+			break;
+
+
 		
 	}
 
