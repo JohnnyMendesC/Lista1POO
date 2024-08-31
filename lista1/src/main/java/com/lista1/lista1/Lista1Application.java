@@ -20,10 +20,13 @@ public class Lista1Application {
 
 		switch(opcao){
 			case 1:
-			System.out.println("EXERCÍCIO 1:");
+			System.out.println("EXERCÍCIO 1:\nEscreva um programa que faça a soma entre 2 números");
 			Exercicio01.resolucao();
 			break;
-			
+			case 2:
+			System.out.println("EXERCÍCIO 2:\n2)Escreva um programa que pergunte o nome e o\nsobrenome do usuário e escreva na tela: Olá, -usuário-");
+			Exercicio02.resolucao();
+
 		
 	}
 
