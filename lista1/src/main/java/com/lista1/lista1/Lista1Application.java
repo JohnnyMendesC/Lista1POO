@@ -1,6 +1,5 @@
 package com.lista1.lista1;
 
-import java.lang.runtime.SwitchBootstraps;
 import java.util.Scanner;
 
 import org.springframework.boot.SpringApplication;
@@ -11,13 +10,13 @@ public class Lista1Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Lista1Application.class, args);
-
-		int opcao;
-		System.out.println("Boas vindas a Lista de Exercicios 1 do Professor Arthur - SerraTec 2024-2");
-		System.out.println("Escolha um dos exerecícios:");
+		
 		Scanner leia = new Scanner(System.in);
-		opcao = leia.nextInt();
-
+		int opcao;
+		System.out.println("\n\nBoas vindas a Lista de Exercicios 1 do Professor Arthur - SerraTec 2024-2");
+		System.out.print("Escolha um dos 8 exercícios digitando de 1 a 8 ou digite 0 para sair: ");
+		
+		opcao = leia.nextInt();		
 		switch(opcao){
 			case 1:
 			System.out.println("EXERCÍCIO 1:");
@@ -47,11 +46,16 @@ public class Lista1Application {
 			System.out.println("EXERCÍCIO 7:");
 			Exercicio07.resolucao();
 			break;
-
-
-		
-	}
-
+			case 8:
+			System.out.println("EXERCÍCIO 8:");
+			Exercicio08.resolucao();
+			break;
+			case 0:
+			System.out.println("Encerrando aplicação");
+			break;
+			default:
+			System.out.println("Digite uma opção entre 1 e 8");
+			}
 		leia.close();
 	}
 

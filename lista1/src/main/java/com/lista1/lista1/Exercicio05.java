@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio05 {
     public static void resolucao(){
         System.out.println("5)Construa um algoritmo que calcule o valor de");
-        System.out.println("um terreno baseado na sua área e valor por m2");
+        System.out.println("um terreno baseado na sua área e valor por m2\n");
 
         Scanner leia = new Scanner(System.in);
 

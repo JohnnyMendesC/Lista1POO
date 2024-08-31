@@ -8,7 +8,7 @@ public class Exercicio06 {
             "Construa um algoritmo que leia\n"+
             "1- A distância percorrida por um veículo em km\n"+
             "2- O total gasto em combustível em litros\n"+
-            "No final deverá ser respondido o consumo médio\n\n");
+            "No final deverá ser respondido o consumo médio\n");
 
         Scanner leia = new Scanner(System.in);
 
