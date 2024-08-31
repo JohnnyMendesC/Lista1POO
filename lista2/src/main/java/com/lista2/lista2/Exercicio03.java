@@ -11,8 +11,6 @@ public class Exercicio03 {
             +"condições são: Ter mais de 65 anos, ser deficiente ou gestante.");
         
         Scanner leia = new Scanner(System.in);
-
-        boolean idade, pcd, gestante;
         int opcao;
                 
         System.out.println("\nBoas vindas ao auto-atendimento do BancoTec.\n"
@@ -20,21 +18,16 @@ public class Exercicio03 {
         System.out.println("\nVocê tem mais de 65 anos? \n1-Sim\n0-Não");
         opcao=leia.nextInt();
             if (opcao==1) {
-                idade=true;
                 System.out.println("Vá para a fila preferencial");
             } else {
-                idade=false;
                 System.out.println("\nVocê é uma Pessoa com Deficiência(PCD)? \n1-Sim\n0-Não");
                 opcao=leia.nextInt();
                 if (opcao==1) {
-                    pcd=true;
                     System.out.println("Vá para a fila preferencial");
                 } else {
-                    pcd=false;
                     System.out.println("\nVocê é Gestante? \n1-Sim\n0-Não");
                     opcao=leia.nextInt();
                     if (opcao==1) {
-                        gestante=true;
                         System.out.println("Vá para a fila preferencial");
                     } else {
                         System.out.println("Vá para a fila comum");
