@@ -24,9 +24,13 @@ public class Lista1Application {
 			Exercicio01.resolucao();
 			break;
 			case 2:
-			System.out.println("EXERCÍCIO 2:\n2)Escreva um programa que pergunte o nome e o\nsobrenome do usuário e escreva na tela: Olá, -usuário-");
+			System.out.println("EXERCÍCIO 2:\nEscreva um programa que pergunte o nome e o\nsobrenome do usuário e escreva na tela: Olá, -usuário-");
 			Exercicio02.resolucao();
-
+			case 3:
+			System.out.println("EXERCÍCIO 3:\nEscreva uma calculadora que receba um valor em reais ne converta para dólar. Considere o valor do dólar a R$5,25");
+			Exercicio03.resolucao();
+			break;
+			
 		
 	}
 
