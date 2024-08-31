@@ -26,6 +26,10 @@ public class Lista2Application {
 			System.out.println("EXERCÍCIO 2:");
 			Exercicio02.resolucao();
 			break;
+			case 3:
+			System.out.println("EXERCÍCIO 3:");
+			Exercicio03.resolucao();
+			break;
 
 			case 0:
 			System.out.println("Encerrando aplicação");
