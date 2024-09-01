@@ -53,5 +53,6 @@ public class Exercicio07 {
             +"Resolução: "+numero2+"/"+numero1+" = "+(numero2/numero1));
 
         }
+    leia.close();
     }
 }
