@@ -28,6 +28,10 @@ public class Lista3Application {
         case 2:
         Exercicio02.resolucao();
         break;
+        case 3:
+        Exercicio03.resolucao();
+        break;
+
 
         case 0:
         System.out.println("Encerrando aplicação");
