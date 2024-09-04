@@ -31,6 +31,9 @@ public class Lista3Application {
         case 3:
         Exercicio03.resolucao();
         break;
+        case 4:
+        Exercicio04.resolucao();
+        break;
 
 
         case 0:
