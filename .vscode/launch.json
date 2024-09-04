@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Lista4Application",
+            "request": "launch",
+            "mainClass": "lista4.Lista4Application",
+            "projectName": "listas"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
