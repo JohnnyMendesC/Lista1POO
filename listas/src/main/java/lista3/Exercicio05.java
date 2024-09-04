@@ -29,6 +29,7 @@ public class Exercicio05 {
             
             if (usuario.equals(u) && senha.equals(s)) { //programação positiva, primeiro faz a afirmação com o return e depois as negações
                 System.out.println("Login efetuado com sucesso");
+                leia.close();
                 return;
             }
             else if (!usuario.equals(u) && senha.equals(s)) {
