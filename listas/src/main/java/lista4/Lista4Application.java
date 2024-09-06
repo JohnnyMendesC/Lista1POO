@@ -44,12 +44,14 @@ public class Lista4Application {
             case 7:
             Exercicio07.resolucao();
             break;
-
+            case 8:
+            Exercicio08.resolucao();
+            break;
             case 0:
             System.out.println("Encerrando aplicação");
             break;
             default:
-            System.out.println("Digite uma opção entre 1 e 7");
+            System.out.println("Digite uma opção entre 1 e 8");
         }
         leiaopcao.close();
     }
