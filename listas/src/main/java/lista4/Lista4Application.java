@@ -35,6 +35,9 @@ public class Lista4Application {
             case 4:
             Exercicio04.resolucao();
             break;
+            case 5:
+            Exercicio05.resolucao();
+            break;
 
             case 0:
             System.out.println("Encerrando aplicação");
